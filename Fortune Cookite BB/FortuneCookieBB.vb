@@ -1,11 +1,16 @@
-﻿Option Compare Text
+﻿'Brandon Barrera
+'Spring 2025
+'RCET2265
+'FortuneCookie
+'https://github.com/BrandLeBar/Fortune-Cookie-BB.git
+
+Option Compare Text
+Option Strict On
+Option Explicit On
 Module FortuneCookieBB
 
     Sub Main()
         Dim userInput As String
-
-        Console.WriteLine("Press ""q"" to quit at anytime.")
-        Console.WriteLine()
 
         While userInput <> "Q"
 
