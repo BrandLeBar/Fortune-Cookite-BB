@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{E100870E-BC46-48FB-9E46-2D7A9F08EB4D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>Fortune_Cookite_BB.FortuneCookieBB</StartupObject>
+    <StartupObject>Fortune_Cookite_BB.FortuneCookie</StartupObject>
     <RootNamespace>Fortune_Cookite_BB</RootNamespace>
     <AssemblyName>Fortune Cookite BB</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -69,7 +69,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FortuneCookieBB.vb" />
+    <Compile Include="FortuneCookie.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>

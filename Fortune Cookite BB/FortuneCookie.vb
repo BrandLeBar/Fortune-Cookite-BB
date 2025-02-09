@@ -2,12 +2,12 @@
 'Spring 2025
 'RCET2265
 'FortuneCookie
-'https://github.com/BrandLeBar/Fortune-Cookie-BB.git
+'https://github.com/BrandLeBar/FortuneCookie.git
 
 Option Compare Text
 Option Strict On
 Option Explicit On
-Module FortuneCookieBB
+Module FortuneCookie
 
     Sub Main()
         Dim userInput As String
@@ -18,7 +18,7 @@ Module FortuneCookieBB
 
                 Console.WriteLine("This your fortune...")
 
-                Select Case RNGesus(1, 3)
+                Select Case RandomNumberGenerator(1, 3)
                     Case 1
                         Console.WriteLine("If at first your voltages don't cancel out try, try again.")
                         Console.WriteLine()
@@ -49,7 +49,7 @@ Module FortuneCookieBB
         End While
     End Sub
 
-    Function RNGesus(Min As Integer, Max As Integer) As Integer
+    Function RandomNumberGenerator(Min As Integer, Max As Integer) As Integer
         Randomize()
         Return CInt((Max - Min) * Rnd() + Min)
     End Function
